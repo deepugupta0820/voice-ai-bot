@@ -1,23 +1,38 @@
 # 🎙️ AI Voice Bot
 
-A personalized AI voice assistant built using **Streamlit**, **Google Gemini API**, and **Text-to-Speech (gTTS)**.  
-This app allows users to **speak a question** and receive a **voice + text response** from an AI digital twin.
+A personalized AI voice assistant built using **Streamlit**, **Groq**, **Whisper**, **Llama 3.3 70B**, and **gTTS**. The application enables natural voice conversations by converting speech into text, generating intelligent responses, and delivering synthesized voice replies in real time.
 
 ---
 
 ## 🚀 Features
 
-- 🎤 Voice input using Streamlit audio recorder
-- 🤖 AI responses powered by Gemini 2.5 Flash
-- 🧠 Personalized system prompt (Digital Twin concept)
-- 🔊 Text-to-Speech output using gTTS
+- 🎤 Voice-based interaction
+- 📝 Speech-to-text transcription using Whisper Large V3
+- 🧠 Conversational AI powered by Llama 3.3 70B
+- 🔊 Text-to-speech responses using gTTS
+- 💬 Multi-turn conversation memory
+- 🗑️ Conversation reset functionality
 - ⚡ Fast and lightweight Streamlit interface
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python**
-- **Streamlit**
-- **Google Generative AI (Gemini API)**
-- **gTTS (Google Text-to-Speech)**
+- Python
+- Streamlit
+- Groq API
+- Whisper Large V3
+- Llama 3.3 70B Versatile
+- gTTS (Google Text-to-Speech)
+
+---
+
+## 📌 How It Works
+
+- Record your voice.
+- Whisper converts speech to text.
+- Llama 3.3 generates a response.
+- gTTS converts the response into speech.
+- The bot replies with both text and voice.
+
+---
