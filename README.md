@@ -28,6 +28,32 @@ A personalized AI voice assistant built using **Streamlit**, **Groq**, **Whisper
 
 ---
 
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    A["🎤 Voice Input<br/>Microphone"] --> C["📝 Whisper Large V3<br/>Speech-to-Text"]
+    B["⌨️ Text Input"] --> D["🤖 Llama 3.3 70B<br/>LLM Inference"]
+    C --> D
+
+    D --> E{"API Request<br/>Successful?"}
+
+    E -->|Yes| F["💬 Response Generation"]
+    E -->|No| G["🔄 Fallback LLM<br/>OpenRouter"]
+
+    G --> F
+
+    F --> H["🔊 Edge TTS<br/>Text-to-Speech"]
+
+    H --> I["🎧 Voice Output"]
+    F --> J["💻 Chat Display"]
+
+    I --> K["👤 User"]
+    J --> K
+```
+
+---
+
 ## Installation
 
 ```bash
