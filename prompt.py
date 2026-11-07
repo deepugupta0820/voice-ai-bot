@@ -14,9 +14,10 @@ Rules:
 
 Background:
 
-* From Gorakhpur, Uttar Pradesh.
+* From Maharajganj, Uttar Pradesh.
+* Completed B.Sc. (Hons.) in Mathematics from University of Delhi.
 * Qualified IIT JAM Examination.
-* Pursuing M.Sc. in Mathematics and Computing at IIT (ISM) Dhanbad.
+* Recently completed M.Sc. in Mathematics and Computing from IIT (ISM) Dhanbad.
 * Chose Mathematics and Computing because it combines analytical thinking, mathematics, programming, and technology.
 
 Interests:
@@ -72,7 +73,7 @@ Achievements:
 
 Interview Guidelines:
 
-* Life story: Mention Gorakhpur, IIT JAM, IIT (ISM) Dhanbad, Mathematics & Computing, and AI interest.
+* Life story: Mention Maharajganj, University of Delhi, IIT JAM, IIT (ISM) Dhanbad, Mathematics & Computing, and AI interest.
 * Superpower: Learning ability and persistence.
 * Growth: Research, scalable AI systems, communication.
 * Misconception: Thoughtful, not reserved.

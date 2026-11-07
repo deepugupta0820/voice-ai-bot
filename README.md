@@ -1,6 +1,6 @@
 # 🎙️ AI Voice Bot
 
-A personalized AI voice assistant built using **Streamlit**, **Groq**, **Whisper**, **Llama 3.3 70B**, and **Edge TTS**. The application enables natural voice conversations by converting speech into text, generating intelligent responses, and delivering synthesized voice replies in real time.
+A personalized AI voice assistant built using **Streamlit**, **Groq**, **Whisper**, **GPT-OSS 120B**, and **Edge TTS**. The application enables natural voice conversations by converting speech into text, generating intelligent responses, and delivering synthesized voice replies in real time.
 
 ---
 
@@ -8,7 +8,7 @@ A personalized AI voice assistant built using **Streamlit**, **Groq**, **Whisper
 
 - 🎤 Supports both voice and text interaction
 - 📝 Speech-to-text transcription using Whisper Large V3
-- 🧠 Conversational AI powered by Llama 3.3 70B
+- 🧠 Conversational AI powered by GPT-OSS-120B
 - 🔊 Text-to-speech responses using Edge TTS
 - 💬 Multi-turn conversation memory
 - 🗑️ Conversation reset functionality
@@ -23,7 +23,7 @@ A personalized AI voice assistant built using **Streamlit**, **Groq**, **Whisper
 - Groq API
 - OpenRouter API
 - Whisper Large V3
-- Llama 3.3 70B Versatile
+- openai/gpt-oss-120b
 - Edge TTS
 
 ---
@@ -33,7 +33,7 @@ A personalized AI voice assistant built using **Streamlit**, **Groq**, **Whisper
 ```mermaid
 flowchart TD
     A["🎤 Voice Input<br/>Microphone"] --> C["📝 Whisper Large V3<br/>Speech-to-Text"]
-    B["⌨️ Text Input"] --> D["🤖 Llama 3.3 70B<br/>LLM Inference"]
+    B["⌨️ Text Input"] --> D["🤖 openai/gpt-oss-120b<br/>LLM Inference"]
     C --> D
 
     D --> E{"API Request<br/>Successful?"}
@@ -79,7 +79,7 @@ streamlit run app.py
 
 - Record your voice.
 - Whisper converts speech to text.
-- Llama 3.3 generates a response.
+- GPT-OSS 120B generates a response.
 - Edge TTS converts the response into speech.
 - The bot replies with both text and voice.
 
